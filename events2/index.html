@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.tanshcreative.com/eventmanagers-landing-page/basic/index.html by HTTrack Website Copier/3.x [XR&CO'2010], Fri, 25 Nov 2011 12:35:08 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Eventmanagers Landing Page</title>
+<link href="css/reset.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
+<script src="js/jquery-1.3.2.js" type="text/javascript"></script>
+<script src="js/jquery.countdown.js" type="text/javascript"></script>
+<script src="js/coda.js" type="text/javascript"></script>
+<script src="js/jquery.thumbhover.js" type="text/javascript"></script>
+<script src="js/cufon-yui.js" type="text/javascript"></script>
+<script src="js/Aller_400-Aller_700.font.js" type="text/javascript"></script>
+<script src="js/Bebas_Neue_400.font.js" type="text/javascript"></script>
+<script type="text/javascript">
+//cufon
+Cufon.replace('h2,h3,h4,h5,h6',{ fontFamily: 'Aller'});
+Cufon.replace('h1',{ fontFamily: 'Bebas Neue' });
+			
+//thumbover
+$(function(){
+	$("img[src*='_s.jpg']").thumbPopup({
+		imgSmallFlag: "_s",
+		imgLargeFlag: "_l"
+	});
+});
+//countdown
+$(function () {
+			$('#defaultCountdown').countdown({
+				until: new Date(2011, 11 - 1, 26, 0, 0, 0), 
+				format: 'DHMS',
+				layout: 
+							'<div id="vals">'+
+								'<div id="d" class="numbers">{dnn}</div>'+
+								'<div id="h" class="numbers">{hnn}</div>'+
+								'<div id="m" class="numbers">{mnn}</div>'+
+								'<div id="s" class="numbers">{snn}</div>'+
+													
+						         '</div>'
+				});
+		});
+//tracker
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20447114-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id="header_top">
+  <div id="header">
+    <div id="logo"><a href="#"><img src="images/logo.png" width="216" height="50" alt="company symbol" style=" margin-top: 20px;" /></a></div>
+    <div id="ribbon">
+      <h5>REGISTER<br/>
+        BEFORE <br/>
+        DECEMBER 31ST<br/>
+        AND <span style="font-size: 18px;">SAVE</span><span style="color:#fff000; font-size: 18px;"> $99</span></h5>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <!--header ends-->
+</div>
+<!--header top ends-->
+<div id="event_disply">
+  <div id="event_disply_left">
+    <h2>2011 Eventmanagers Conference</h2>
+    <h6>Lorem ipsum dolor Hotel, Ipsum, IN, <span style="font-size:22px; ">August 26, 2011</span></h6>
+    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et.</p>
+    <ul>
+      <li>Lorem ipsum dolor sit amet </li>
+      <li>Lorem ipsum dolor sit amet </li>
+    </ul>
+    <ul style="margin-left: 20px;">
+      <li>Lorem ipsum dolor sit amet </li>
+      <li>Lorem ipsum dolor sit amet </li>
+    </ul>
+  </div>
+  <!--event_display_left ends-->
+  <div id="event_disply_right">
+    <h2>SUNDAY MORNING | 10 AM</h2>
+    <div id="defaultCountdown_container">
+      <div id="defaultCountdown"></div>
+      <div id="countdown_tag">
+        <p>days to go</p>
+      </div>
+    </div>
+    <div id="button1">
+      <h1><a href="#">Register Now</a></h1>
+    </div>
+  </div>
+  <!--event_display right ends-->
+  <div class="clear"></div>
+</div>
+<div class="clear"></div>
+<!--event_display ends-->
+<div id="contact">
+  <div id="contact_inner">
+    <ul>
+      <li><span style="font-weight:bold">mail : </span><a href="mailto:info@companyname.com">info@companyname.com</a> </li>
+      <li><span style="font-weight:bold">call : </span> + (123) 456 789</li>
+    </ul>
+  </div>
+  <div class="clear"></div>
+</div>
+<!--contact ends-->
+<div id="content">
+  <div id="content_left">
+    <h3>Upcoming Event 1</h3>
+    <h5>Lorem Ipsum Global Meeting</h5>
+    <h5>March 10-12, 2011</h5>
+    <div class="bubbleInfo">
+      <div>
+        <h3 class="trigger">More details</h3>
+      </div>
+      <div class="popup">
+        <h6>Event Details</h6>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+        </ul>
+      </div>
+    </div>
+    <!--bubbleinfo ends-->
+    <div class="arrow"></div>
+  </div>
+  <!--content_left ends-->
+  <div id="content_middle">
+    <h4>Lorem ipsum dolor sit amet</h4>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam quis Lorem ipsum dolor sit amet.</p>
+  </div>
+  <!--content_middle ends-->
+  <div id="content_right">
+    <h3>Upcoming Event 2</h3>
+    <h5>Lorem Ipsum Universal Meeting</h5>
+    <h5>April 26-29, 2011</h5>
+    <div class="bubbleInfo">
+      <h3 class="trigger">More details</h3>
+      <div class="popup">
+        <h6>Event Details</h6>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+        <ul>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Lorem ipsum dolor sit amet</li>
+        </ul>
+        <p>For more details visit our main page <a href="#">Laureum Ipsum</a></p>
+      </div>
+    </div>
+    <!--bubbleinfo ends-->
+    <div class="arrow"></div>
+    <div class="clear"></div>
+  </div>
+  <!--content_right_ends-->
+  <div class="clear"></div>
+</div>
+<!--content ends-->
+<div id="sponsors">
+  <div id="sponsors_inner">
+    <div id="sponsor_title">
+      <h3>Our Sponsors</h3>
+    </div>
+    <div class="sponsor_img"><img src="images/sponsor.jpg" width="160px" height="95px" alt="sponsor name" /></div>
+    <div class="sponsor_img"><img src="images/sponsor.jpg" width="160px" height="95px" alt="sponsor name" /></div>
+    <div class="sponsor_img"><img src="images/sponsor.jpg" width="160px" height="95px" alt="sponsor name" /></div>
+    <div class="sponsor_img"><img src="images/sponsor.jpg" width="160px" height="95px" alt="sponsor name" /></div>
+  </div>
+  <!--sponsors_inner ends-->
+  <div class="clear"></div>
+</div>
+<!--sponsors ends-->
+<div id="information">
+  <div id="gallery">
+    <div class="image"> <img src="images/thumb1_s.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left; border: 5px solid #dbdbdb;"  />
+      <h6>Lorem ipsum dolor sit amet</h6>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+    </div>
+    <div class="image"> <img src="images/thumb2_s.jpg" width="160" height="95" align="left" alt="img" style=" margin-right: 15px; float:left;  border: 5px solid #dbdbdb;"  />
+      <h6>Lorem ipsum dolor sit amet</h6>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. </p>
+    </div>
+  </div>
+  <!--gallery ends-->
+  <div id="subscribe">
+    <h4>Stay tuned for announcements!</h4>
+    <ul>
+      <li>Lorem ipsum dolor sit amet consectetuer adipiscing elit</li>
+      <li>Lorem ipsum dolor sit amet consectetuer adipiscing elit</li>
+      <li>Lorem ipsum dolor sit amet consectetuer adipiscing elit</li>
+    </ul>
+    <h4>Join our mailing list!</h4>
+    <form action="#" method="post">
+      <input class="input_subscribe" type="text" value="Enter your e-mail address" onblur="if (this.value == '') {this.value = 'Enter your e-mail address';}" onfocus="if (this.value == 'Enter your e-mail address') {this.value = '';}" />
+      <input class="btn_subscribe" type="submit" value="JOIN NOW" />
+    </form>
+  </div>
+  <!--subscribe ends-->
+  <div class="clear"></div>
+</div>
+<!--information ends-->
+<div id="footer">
+  <div id="footer_inner">
+    <div id="copyright">
+      <p>Copyright © 2011 eventmanagers.com - All rights reserved</p>
+    </div>
+    <div id="social">
+      <ul>
+        <li><a href="#"><img alt="twitter" src="images/twitter.png" /></a></li>
+        <li><a href="#"><img alt="facebook" src="images/facebook.png" /></a></li>
+        <li><a href="#"><img alt="linkedin" src="images/linkedin.png" /></a></li>
+        <li><a href="#"><img alt="delicious" src="images/delicious.png" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!--footer ends-->
+<div class="clear"></div>
+</body>
+
+<!-- Mirrored from www.tanshcreative.com/eventmanagers-landing-page/basic/index.html by HTTrack Website Copier/3.x [XR&CO'2010], Fri, 25 Nov 2011 12:35:17 GMT -->
+</html>
